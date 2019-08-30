@@ -47,7 +47,7 @@ const Navbar = ({ logout, auth: { isAuthenticated, loading } }) => {
     <nav className='navbar bg-dark'>
       <h1>
         <Link to='/'>
-          <i className='fas fa-code' /> DevConnector
+          <i className='fas fa-code' /> MERN Social App
         </Link>
       </h1>
       {!loading && (
